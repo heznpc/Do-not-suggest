@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Do Not Suggest — ChatGPT Web Filter",
+  "version": "0.1.0",
+  "description": "Hide unsolicited closing offers, next-action prompts, and choice questions in ChatGPT web responses.",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
