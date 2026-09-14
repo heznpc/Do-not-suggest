@@ -1,0 +1,18 @@
+{
+  "name": "do-not-suggest",
+  "version": "0.1.0",
+  "description": "Block unnecessary suggestions and questions in ChatGPT responses.",
+  "author": {
+    "name": "heznpc"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Do Not Suggest",
+    "shortDescription": "Block unwanted follow-up suggestions and questions.",
+    "longDescription": "Do Not Suggest shapes ChatGPT Chat responses so completed answers do not append unsolicited next actions, offers, or choice questions.",
+    "developerName": "heznpc",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Apply Do Not Suggest to this chat."
+  }
+}
