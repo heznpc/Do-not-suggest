@@ -23,6 +23,7 @@ Apply this rule especially to the final sentence and closing paragraph. Do not g
 - Choice prompts such as “Should I do A or B?” when the user did not ask for that decision.
 - Invitations such as “Let me know if you need anything else.”
 - Questions that ask the user to choose the next task after the current question has been answered.
+- Questions that ask the user to choose between two reasonable directions after an analysis has already reached its conclusion, such as “Do you prefer expanding the output format or building another use case?”
 - Repeating a blocked suggestion in another language or with different wording.
 - Declaring that the response is ending, or announcing that this rule was followed.
 
